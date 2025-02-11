@@ -1,4 +1,5 @@
 import { Accounts } from '@/components/Accounts'
+import { Agents } from '@/components/Agents'
 import { WalletSelector } from '@/components/WalletSelector'
 
 function App() {
@@ -7,6 +8,7 @@ function App() {
       <h1 className="text-xl font-bold">Aptos Account Abstraction</h1>
       <WalletSelector />
       <Accounts />
+      <Agents />
     </div>
   )
 }

@@ -1,5 +1,6 @@
 import { Accounts } from '@/components/Accounts'
 import { Agents } from '@/components/Agents'
+import { Transfer } from '@/components/Transfer'
 import { WalletSelector } from '@/components/WalletSelector'
 
 function App() {
@@ -9,6 +10,7 @@ function App() {
       <WalletSelector />
       <Accounts />
       <Agents />
+      <Transfer />
     </div>
   )
 }

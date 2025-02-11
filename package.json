@@ -1,0 +1,23 @@
+{
+  "name": "aaa",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "check": "biome check . --fix --unsafe",
+    "dev": "pnpm --filter playground dev",
+    "format": "biome format --write",
+    "preinstall": "pnpx only-allow pnpm"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "1.9.4",
+    "simple-git-hooks": "^2.11.1",
+    "typescript": "catalog:"
+  },
+  "packageManager": "pnpm@9.15.2",
+  "engines": {
+    "node": ">=23"
+  },
+  "simple-git-hooks": {
+    "pre-commit": "pnpm check"
+  }
+}

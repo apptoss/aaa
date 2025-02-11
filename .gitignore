@@ -1,0 +1,14 @@
+*.map
+.DS_Store
+.attest
+.env
+.local
+_esm
+_cjs
+_types
+dist
+coverage
+node_modules
+tsconfig.*.tsbuildinfo
+tsconfig.tsbuildinfo
+.vercel
